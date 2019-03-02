@@ -92,9 +92,7 @@ header .logo{
 	margin-top: 20px;
 }
 
-.intro-block{
-
-}
+/*Styles the div elements in the bigger div .intro-block */
 
 .intro-block div{
 	margin-top: 40px;
@@ -102,6 +100,7 @@ header .logo{
 	vertical-align: top;
 }
 
+/*styles the image in the intro-block*/
 .intro-block .image_div{
 	margin-left:10px;
 	margin-right: 0px;
@@ -109,6 +108,7 @@ header .logo{
 	width:400px;
 }
 
+/*Styles the section of text containing "Innovation on demand"*/
 .intro-block .innovation{
 	margin:40px;
 	margin-right: 74px;
@@ -117,6 +117,7 @@ header .logo{
 	height: 400px;
 }
 
+/*Styles affecting the start button */
 .start_button{
 	height:30px;
 	width: 150px;
@@ -139,7 +140,7 @@ header .logo{
 	padding-bottom:0px;
 }
 
-
+/*.content-row = first row of content */
 .content-row{
 	padding:0px;
 	width: 876px;
@@ -149,6 +150,7 @@ header .logo{
 
 }
 
+/*This affects the CSS of the <div> elements in the the first row of content*/
 .container .content-row div{
 	margin: 20px 0px;
 	margin-left:0px;
@@ -159,19 +161,22 @@ header .logo{
 }
 
 
-
+/*The middle image class is applied to the image. */
 .middle-img{
 	margin:0px 30px;
 }
 
+/*.bottom-section is that row of content following the image*/
 .bottom-section{
 	width: 876px;
   margin: 0 30px;
+	margin-bottom: 35px;
   border-bottom: 1px solid black;
 	padding-bottom: 20px;
-	margin-bottom: 35px;
+
 }
 
+/*The <div>'s that are in that row of content with class="bottom-section"'*/
 .bottom-section div{
 	vertical-align: top;
 	display: inline-block;
@@ -179,32 +184,22 @@ header .logo{
 	margin:30px 5px;
 }
 
+/*Gave the contact section a little breathing room above and below*/
 .contact-section{
 	margin:30px 30px
 }
 
+/*STyles the <span> with phone-number class*/
 .phone-number{
 	display:block;
 	margin-top: 15px;
 	margin-bottom:15px;
 }
 
+/*Styles the <p> element with the copyright information*/
 .copyright{
 	font-size:14px;
 	text-align:center;
 	margin-top: 30px;
 	margin-bottom: 50px;
-}
-
-
-/*
-footer{
-	height:50px;
-	width:876px;
-	margin-right: 30px;
-	margin-left: 30px;
-}
-
-footer p{
-	width:876px;
 }
