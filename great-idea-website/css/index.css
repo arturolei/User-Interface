@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -63,4 +63,143 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+.container{
+	width:950px;
+	margin: auto;
+
+}
+
+
+header nav {
+	display:inline-block;
+	margin-top:30px;
+	maring-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	vertical-align: top;
+}
+
+header nav a{
+	margin: 0 25px;
+	color:grey;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size:15px;
+}
+header .logo{
+	display:inline-block;
+	margin-left:84px;
+	margin-top: 20px;
+}
+
+/*Styles the div elements in the bigger div .intro-block */
+
+.intro-block div{
+	margin-top: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*styles the image in the intro-block*/
+.intro-block .image_div{
+	margin-left:10px;
+	margin-right: 0px;
+	margin-bottom:50px;
+	width:400px;
+}
+
+/*Styles the section of text containing "Innovation on demand"*/
+.intro-block .innovation{
+	margin:40px;
+	margin-right: 74px;
+	margin-left: 104px;
+	width:300px;
+	height: 400px;
+}
+
+/*Styles affecting the start button */
+.start_button{
+	height:30px;
+	width: 150px;
+	text-align:center;
+	margin-top:20px;
+	background-color: white;
+	margin-left:80px;
+	text-shadow: none;
+	font-size:14px;
+	border:1px solid black;
+}
+
+.intro-block .innovation h1{
+	font-size:78px;
+	padding:20px;
+	text-align: center;
+	width: 310px;
+	margin-top: 40px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+/*.content-row = first row of content */
+.content-row{
+	padding:0px;
+	width: 876px;
+	height:150px;
+	margin:0 30px;
+	border-top:1px solid black;
+
+}
+
+/*This affects the CSS of the <div> elements in the the first row of content*/
+.container .content-row div{
+	margin: 20px 0px;
+	margin-left:0px;
+	width:430px;
+	height:100px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+
+/*The middle image class is applied to the image. */
+.middle-img{
+	margin:0px 30px;
+}
+
+/*.bottom-section is that row of content following the image*/
+.bottom-section{
+	width: 876px;
+  margin: 0 30px;
+	margin-bottom: 35px;
+  border-bottom: 1px solid black;
+	padding-bottom: 20px;
+
+}
+
+/*The <div>'s that are in that row of content with class="bottom-section"'*/
+.bottom-section div{
+	vertical-align: top;
+	display: inline-block;
+	width:275px;
+	margin:30px 5px;
+}
+
+/*Gave the contact section a little breathing room above and below*/
+.contact-section{
+	margin:30px 30px
+}
+
+/*STyles the <span> with phone-number class*/
+.phone-number{
+	display:block;
+	margin-top: 16px;
+	margin-bottom:16px;
+}
+
+/*Styles the <p> element with the copyright information*/
+.copyright{
+	font-size:14px;
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
